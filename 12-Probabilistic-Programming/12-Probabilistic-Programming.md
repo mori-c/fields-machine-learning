@@ -11,6 +11,8 @@ Resources ⋯ STA4516
     - [ ]  2015 - [hhttp://danroy.org/teaching/2015/STA4516/](http://danroy.org/teaching/2015/STA4516/)
     - [ ]  2012 - [Probabilistic Programming: Foundations and Applications](http://probabilistic-programming.org/wiki/NIPS*2012_Workshop)
     - [ ]  2008 - [Probabilistic Programming: Universal Languages and Inference; Systems; and Applications](http://probabilistic-programming.org/wiki/NIPS*2008_Workshop)
+- [Towards common-sense reasoning via conditional simulation: legacies of Turing in Artificial Intelligence](https://arxiv.org/pdf/1212.4799)
+- [TOWARDS COMMON-SENSE REASONING VIA CONDITIONAL SIMULATION: LEGACIES OF TURING IN ARTIFICIAL INTELLIGENCE](http://danroy.org/papers/FreRoyTen-Turing.pdf)
 
 
 ## Abstract
@@ -39,7 +41,7 @@ Probabilistic programming systems, like Stan, Church, Anglican, Edward, Pyro, an
 ╰  Church (language)
 ╰  Anglican
 ╰  Edward
-╰  Pyro
+╰  [Pyro](https://paperswithcode.com/paper/pyro-deep-universal-probabilistic-programming)
 
 
 ## Lecture
@@ -79,6 +81,157 @@ Probabilistic programming systems, like Stan, Church, Anglican, Edward, Pyro, an
 
 5. Computational Tutorial
 * **Query** = prob model as **programs**
+
+
+6. Probabilsitic Python Program
+
+Example
+
+bernoulli = generates 0|1
+```
+def binominal(n, p):
+    return sum( [bernulli(p) for i in range(n)] )
+```
+
+```
+[bernulli(p) for i in range(n)]
+```
+create list of indepent calls of binary numbers of, mean of P
+
+
+Create a statistical model
+```
+def binominal(n, p):
+    return sum( [bernulli(p) for i in range(n)] )
+
+def randomized_trial()
+    
+    ## model, but not bayesian
+    return ( binominal(100, p_control),
+             binominal(10,  p_treatment) )
+             
+## if run, returns variables undefined
+```
+
+Define random values, represents **Bayesian Model**
+```
+def binominal(n, p):
+    return sum( [bernulli(p) for i in range(n)] )
+
+def randomized_trial()
+    p_control   = uniform(0,1)  # prior
+    p_treatment = uniform(0,1)  # prior
+
+    return ( binominal(100, p_control),
+             binominal(10,  p_treatment) )
+             
+```
+
+**Bayesian Model** of a randomized trial
+
+Distribution:
+-- >
+time-series = simulation 
+e.g., (71, 9)
+
+Inference
+<--
+
+Query Program
+
+```
+def QUERY(guesser, checker):
+    # guesser: Unit -> S
+    # predicate: S -> Boolean
+    accept = False
+    
+    while (not accept)
+        guess = guesser()
+        accept = checker(guess)
+    return guess
+    
+```
+lambda (_): True === QUERY predicate
+guesser = 
+checker = deterministic...takes inputs if true
+take 2 programs, 
+
+```
+def N():
+    return uniformInt(range(1, 180))
+    # this is your guesser
+```
+
+QUERY(N, div235):
+```
+def div235(n):
+    return isDivBy(n, 2) or isDivby(n, 3) of isDivBy(n, 5)
+# takes interger
+```
+
+
+QUERY checker = deterministic
+
+(P, 1A) |--> P(.|A) := P(. ⋂ A) / P(A)
+
+rquals to while loop
+
+
+
+
+**Stochastic Inference Problem**
+
+**Rejection Sample**
+Return a single sample
+```
+accept = False
+while (not accept):
+    guess = guesser()
+    accept = checker(guess)
+return guess
+```
+* really slow 
+* **k** = kevin bottle
+* input: guesser and checker, probabilitistic programs
+* output: distribution program
+* Bay stat inf
+    * **prior** distrib <--> guesser()
+    * **likelihood(g)** <--> ℙ{ checker(g) is True } = while loop
+    * **posterior** distrib <--> return value distrib
+
+
+QUERY: Inferring Bias of a Coin
+return query of probability
+```
+accept = False
+while (not accept):
+    guess = guesser()
+    accept = checker(guess)
+return guess
+
+```
+
+* report prob of next value that is 1
+𝑥n ∈ {0, 1}
+𝑥n+1 = 1? 
+    e.g., 0,0,1,0,0
+
+```
+def guesser():
+    q = uniform()
+    return q
+    
+def checker(q): # judges x roles from array
+    return [0,0,1,0,0] == bernoulli(q,5)
+```
+
+Maths:
+ℙ{checker(q) is True} = q(1-q)ⁿ⁻ˢ
+
+ˢ = S
+
+Baysain is about combining prior
+* 
 
 
 
