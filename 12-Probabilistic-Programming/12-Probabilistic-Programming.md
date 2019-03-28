@@ -44,6 +44,44 @@ Probabilistic programming systems, like Stan, Church, Anglican, Edward, Pyro, an
 
 ## Lecture
 
+1. Baysian Learning
+* limitation in frequency
+* **representing** *degree of belief*
+* Probabilities are *personal*, reflection of factors, observations, past assumptions tested to predict
+* key structures of *joint distributions* of multiple random variables
+    X = pa
+    Y
+    Z
+    S
+    W
+    ℙ { X = x, Y = y, Z = z, S =s, W = w}
+    * extension of logic
+    * booleans
+    * inferences
+* Learning to classify, predict from conditions
+    
+2. Bayesian Inference <sup>*fully Bayesian*</sup>
+* θ* = unknown quantities, modelled as random prior distribution
+* everything is a random variable = frequent sampling properties = seeking a remainder
+    
+3. Universial Stochastic Inferences
+* Computational Object Framework
+    * **programs** = distributions 
+    - programs taking programs
+    - programs represented as simulators  
+    * **predicates** = evidence
+    * **procedure** = conditioning from high order
+
+4. Computational Frameworks
+* Probabilistic Programming
+* ABC - Approxi Bayseian Computation
+* Implicit Generative Models
+
+5. Computational Tutorial
+* **Query** = prob model as **programs**
+
+
+
 #### March 2019
 
 #### October 6th, 2016
@@ -68,7 +106,6 @@ Programs can be used to give compact representations of distributions: in order 
 Probabilistic programming systems support statistical inference on models defined by probabilistic programs. By constraining some variables of a program (e.g., simulated sensor readings in some climate model) and studying the conditional distribution of other variables (e.g., the parameters of the climate model), we can identify plausible variable settings that agree with the constraints. Conditional inferences like this would allow us to, e.g., build predictive text systems for mobile phones, guess the 3D shape of an object from only a photograph, or study the underlying mechanisms driving observed climate measurements
 
 Probabilistic programming systems for machine learning and statistics are still in their infancy, and there are many interesting theoretical and applied problems yet to be tackled. My own work focuses on theoretical questions around representing stochastic processes and the computational complexity of sampling-based approaches to inference. I was involved in the definition of the probabilistic programming language [Church](http://projects.csail.mit.edu/church/wiki/Church), and its first implementation, MIT-Church, a Markov Chain Monte Carlo algorithm operating on the space of execution histories of an interpreter. Some of my key theoretical work includes a study of the computability of conditional probability and de Finetti measures, both central notions in Bayesian statistics. Readers looking for an overview of these results are directed to the introduction of my doctoral dissertation. A less technical description of a probabilistic programming approach to artificial intelligence can be found in a recent book chapter on legacies of Alan Turing, co-authored with Freer and Tenenbaum
-
 
 
 
