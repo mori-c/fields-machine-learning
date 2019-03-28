@@ -231,8 +231,33 @@ Maths:
 ˢ = S
 
 Baysain is about combining prior
-* 
 
+---
+
+**Inferring Objects from an Image** : [Section 07](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)
+
+```
+accept = False
+while (not accept):
+    guess = guesser()
+    accept = checker(guess)
+return guess
+
+```
+
+Thing not observed, and unknown
+```
+def guesser():              # how many from the following distributions
+    k = geometric()
+    blocks = [ randomblock() for _ in range(k) ]
+    colors = [ randomcolor() for _ in range(k) ]
+    return (k,blocks,colors)
+
+def checker(k,blocks,colors):   # comparative check for evidence
+    return rasterize(blocks,colors) ==
+```
+
+---
 
 
 #### March 2019
