@@ -177,9 +177,9 @@ QUERY checker = deterministic
 rquals to while loop
 
 
+---
 
-
-**Stochastic Inference Problem**
+**Stochastic Inference Problem** [Section 5](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)
 
 **Rejection Sample**
 Return a single sample
@@ -199,8 +199,10 @@ return guess
     * **likelihood(g)** <--> ℙ{ checker(g) is True } = while loop
     * **posterior** distrib <--> return value distrib
 
+---
 
-QUERY: Inferring Bias of a Coin
+QUERY: **Inferring Bias of a Coin** [Section 6](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)
+
 return query of probability
 ```
 accept = False
@@ -259,6 +261,77 @@ def checker(k,blocks,colors):   # comparative check for evidence
 
 ---
 
+**Extracting 3D Structure from Images** [Section 08](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)
+Guesser inference and of an Object
+
+mesh poly <-- inference <-- image of an object
+```
+accept = False
+while (not accept):
+    guess = guesser()
+    accept = checker(guess)
+return guess
+
+```
+* silence of razeriation 
+* not contraint by prior
+
+
+mesh poly --> checker --> materialized mesh simulation of digital object model
+```
+accept = False
+while (not accept):
+    guess = guesser()
+    accept = checker(guess)
+return guess
+```
+* checker can't render, but checks for symmertry, noise 
+* **gaussian noise modelling**
+* only 1 data point if NN'ed
+
+
+Conculsion:
+
+* Bayesian Analysis == core ALGM && QUERY !== core ALGM
+    * let `model()` = P and ......
+* [inverse graphics / vision] - old idea
+    * pixar uses this
+    * optical illusions
+* run image, 
+* first and last factorial or vectorial(?) representations
+* this is more sophisticated than gaussian modelling
+* ***How do you create a learner guesser?***
+
+
+---
+
+**Church / Trace-MCMC** [Section]()
+
+* represents as a search tree 
+* returns 1 or 3
+```
+# flip bernoulli of 0|1 ---> p(1-p)ᵏ⁻¹
+# keeps calling bernoulli until it reaches 1
+def geometric(p):
+    if bernoulli(p) == 1: return 1
+    else: return 1 + geometric(p)
+    
+# trace function
+# unnormalized probability
+def aliased_geometric(p):
+    g = geometric(p)
+    return 1 if g < 3 else 0
+    
+```
+* choose random or move around by rejecting while in state transistion
+* uses a markov chain monte carlo for each while loop, search state to state until queried value reached
+* stochastic of the **k** power
+
+A. Proposal state transistion
+B. metropolis-hastings rule state transistion
+
+
+---
 
 #### March 2019
 
@@ -295,3 +368,9 @@ Probabilistic programming systems for machine learning and statistics are still 
 
 - Table of Contents
     1. 
+    
+    
+    
+[A stochastic programming perspective on nonparametric Bayes](http://danroy.org/papers/RoyManGooTen-ICMLNPB-2008.pdf)
+[Fields-CQAM Interdisciplinary Thematic Program](https://www.eventbrite.ca/e/fields-cqam-interdisciplinary-thematic-program-92001-tickets-51212616314)
+
