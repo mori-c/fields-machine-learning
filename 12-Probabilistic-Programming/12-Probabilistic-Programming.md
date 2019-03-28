@@ -5,12 +5,16 @@
 [Dan Roy](http://danroy.org/), University of Toronto
 [Gintare Karolina Dziugaite](), University of Toronto
 
-Resources ⋯ STA4516
+Resources ⋯ Probabilistic Programming / Bay / STA4516 / Other
+
+- [Probabilistic Programming](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)
+- [A tutorial on Bayesian learning](http://fopss18.mimuw.edu.pl/PDF/Roy.pdf)
 
 - STA4516 ⋯ Topics in Probabilistic Programming 
     - [ ]  2015 - [hhttp://danroy.org/teaching/2015/STA4516/](http://danroy.org/teaching/2015/STA4516/)
     - [ ]  2012 - [Probabilistic Programming: Foundations and Applications](http://probabilistic-programming.org/wiki/NIPS*2012_Workshop)
     - [ ]  2008 - [Probabilistic Programming: Universal Languages and Inference; Systems; and Applications](http://probabilistic-programming.org/wiki/NIPS*2008_Workshop)
+
 - [Towards common-sense reasoning via conditional simulation: legacies of Turing in Artificial Intelligence](https://arxiv.org/pdf/1212.4799)
 - [TOWARDS COMMON-SENSE REASONING VIA CONDITIONAL SIMULATION: LEGACIES OF TURING IN ARTIFICIAL INTELLIGENCE](http://danroy.org/papers/FreRoyTen-Turing.pdf)
 
