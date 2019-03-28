@@ -370,7 +370,8 @@ Probabilistic programming systems for machine learning and statistics are still 
     1. 
     
     
-    
+[Probabilistic Programming](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)   
 [A stochastic programming perspective on nonparametric Bayes](http://danroy.org/papers/RoyManGooTen-ICMLNPB-2008.pdf)
 [Fields-CQAM Interdisciplinary Thematic Program](https://www.eventbrite.ca/e/fields-cqam-interdisciplinary-thematic-program-92001-tickets-51212616314)
+[Papers with Code](https://paperswithcode.com/task/probabilistic-programming)
 
