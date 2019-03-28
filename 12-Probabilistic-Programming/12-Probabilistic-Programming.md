@@ -5,10 +5,10 @@
 [Dan Roy](http://danroy.org/), University of Toronto
 [Gintare Karolina Dziugaite](), University of Toronto
 
-Resources ⋯ Probabilistic Programming / Bay / STA4516 / Other
+Resources ⋯ Probabilistic Programming / Bayesian Learning / STA4516 / Other
 
 - [Probabilistic Programming](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)
-- [A tutorial on Bayesian learning](http://fopss18.mimuw.edu.pl/PDF/Roy.pdf)
+- [Bayesian Learning](http://fopss18.mimuw.edu.pl/PDF/Roy.pdf)
 
 - STA4516 ⋯ Topics in Probabilistic Programming 
     - [ ]  2015 - [hhttp://danroy.org/teaching/2015/STA4516/](http://danroy.org/teaching/2015/STA4516/)
@@ -49,6 +49,8 @@ Probabilistic programming systems, like Stan, Church, Anglican, Edward, Pyro, an
 
 
 ## Lecture
+
+### QUERY and conditional simulation
 
 1. Baysian Learning
 * limitation in frequency
@@ -334,6 +336,104 @@ def aliased_geometric(p):
 A. Proposal state transistion
 B. metropolis-hastings rule state transistion
 
+---
+### [Probabilistic Inference]()
+
+A. MEDICAL DIAGNOSIS MODEL DESCRIPTION
+1. def model as stochastic inference = `QUERY(diseasesAndSymptoms,checkSymptoms)` 
+    * `diseasesAndSymptoms() ` = random | 0
+    * `checkSymptoms(...)` feature values checks until match value is reached
+2. feature 01: def prior program with `diseasesAndSymptoms()`
+    * each 𝑛 = disease, sample an independent binary random variable 𝐷𝑛 with mean 𝑃𝑛
+    * 𝐷𝑛 = boolean of 𝑛
+e.g.,
+| 𝑛 | 𝐷isease | 𝑃𝑛 |
+|---|---------|----|
+| 1 |Arthritis|0.06|
+
+3. feature 02: .....
+    * 𝑚 = symptom
+    * 𝑳𝑚 = symptom(𝑚) Patient(𝑳) could have
+    * ....
+4. ....
+5. ....
+6. Exploring the Model
+7. `diseasesAndSymptoms`
+    * Shortcomings
+8. INCORPORATING OBSERVED SYMPTOMS
+9. POSTERIOR CALCULATIONS GIVEN S1 = S7 = 1
+    i.
+    ii.
+    iii.
+    iv.
+    v.
+10. EXPLAINING AWAY
+11. SIMPLE MODELS CAN YIELD COMPLEX BEHAVIOR
+    i.
+    ii.
+    iii.
+
+
+---
+### [Conditional independence and compact representations]()
+
+---
+### [Learning parameters via probabilistic inference]()
+
+1. LEARNING PARAMETERS VIA PROBABILISTIC INFERENCE
+
+2. EXACT POSTERIOR DISTRIBUTION OF pj
+* a rehash of the uniform of beta 𝐷 = distribution
+* this would be a slow convergence
+* assumed knowing ℙ, 
+* turn ℂ = constant into variables
+
+3. POSTERIOR CONVERGENCE
+
+4. BAYESIAN LEARNING
+* learn data by treating as random variable with constraints
+* from simple to sophisticated by learning data via uncertainity
+* paradox == shorter
+
+
+---
+### [Learning conditional independences via probabilistic inference]()
+
+1. LEARNING CONDITIONAL INDEPENDENCES
+* structure of Bayes Net 
+    - each D was causing each 
+* to solve, make it random with a lot of data and Bayes Net, but relationships will ....
+* **noisy-OR** fixable by probabilistic inference
+* make D random by Bayesian prior D factorization
+* A and B may not interact, but C might
+* variables shrink resulting smaller data
+
+2. STRUCTURAL LEARNING VIA PROBABILISTIC INFERENCE
+P(X1 = x1, . . . , Xk = xk) = Y k j=1 P(Xj = xj | Xi = xi, i ∈ Pa(Xj )).
+
+3. A RANDOM PROBABILITY DISTRIBUTION
+```
+QUERY(RPD(n+1,18), checkAllSymptoms)
+```
+D is of interest
+* run rand var & return by sampling x1 and x2 via boolean condition, using (n+1) data by checking ikeihood
+
+* run a P distribution
+
+
+4. GENERAL BAYESIAN LEARNING MACHINE
+
+5. GRAPH-CONDITIONAL POSTERIOR
+
+6. ASPECTS OF THE POSTERIOR DISTRIBUTION OF THE GRAPHICAL STRUCTURE
+
+7. LIKELIHOOD OF A GRAPH
+
+8. GRAPH POSTERIOR
+
+9. SIMPLE SPECIAL CASE OF GRAPH POSTERIOR
+
+10. BAYES’ OCCAM’S RAZOR
 
 ---
 
