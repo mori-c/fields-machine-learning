@@ -425,15 +425,24 @@ D is of interest
 
 5. GRAPH-CONDITIONAL POSTERIOR
 
-6. ASPECTS OF THE POSTERIOR DISTRIBUTION OF THE GRAPHICAL STRUCTURE
+6. --ASPECTS OF THE POSTERIOR DISTRIBUTION OF THE GRAPHICAL STRUCTURE--
 
 7. LIKELIHOOD OF A GRAPH
+e.g., heads and tails
+* **Corollary** choice proves best fit by limiting behaviour
+* learning the structure of the data through distribution is key and QUERY can help
 
-8. GRAPH POSTERIOR
+8. --GRAPH POSTERIOR--
 
-9. SIMPLE SPECIAL CASE OF GRAPH POSTERIOR
+9. --SIMPLE SPECIAL CASE OF GRAPH POSTERIOR
 
-10. BAYES’ OCCAM’S RAZOR
+10. BAYES’ OCCAM’S RAZOR: [Model Comparison and Occam’s Razor](https://www.cs.princeton.edu/courses/archive/fall09/cos597A/papers/MacKay2003-Ch28.pdf): 
+* proves simplist solution and most natural explaining probability outcome
+* provides configurable data from hierarchical models (markov chain / search trees), avoiding overfitting
+* modeling freedom comes from each configuration made by assigning an average
+* graphs with added edges == degrees of freedom
+* forming imprints ....with monte carlo...markov chain (?)
+
 
 ---
 
@@ -461,6 +470,7 @@ Programs can be used to give compact representations of distributions: in order 
 Probabilistic programming systems support statistical inference on models defined by probabilistic programs. By constraining some variables of a program (e.g., simulated sensor readings in some climate model) and studying the conditional distribution of other variables (e.g., the parameters of the climate model), we can identify plausible variable settings that agree with the constraints. Conditional inferences like this would allow us to, e.g., build predictive text systems for mobile phones, guess the 3D shape of an object from only a photograph, or study the underlying mechanisms driving observed climate measurements
 
 Probabilistic programming systems for machine learning and statistics are still in their infancy, and there are many interesting theoretical and applied problems yet to be tackled. My own work focuses on theoretical questions around representing stochastic processes and the computational complexity of sampling-based approaches to inference. I was involved in the definition of the probabilistic programming language [Church](http://projects.csail.mit.edu/church/wiki/Church), and its first implementation, MIT-Church, a Markov Chain Monte Carlo algorithm operating on the space of execution histories of an interpreter. Some of my key theoretical work includes a study of the computability of conditional probability and de Finetti measures, both central notions in Bayesian statistics. Readers looking for an overview of these results are directed to the introduction of my doctoral dissertation. A less technical description of a probabilistic programming approach to artificial intelligence can be found in a recent book chapter on legacies of Alan Turing, co-authored with Freer and Tenenbaum
+
 
 
 
