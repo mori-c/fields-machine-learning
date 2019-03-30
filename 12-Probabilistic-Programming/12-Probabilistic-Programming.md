@@ -452,17 +452,16 @@ e.g., heads and tails
 
 [Probabilistic Programming in Machine Learning]() ⌇ Fields ﹊  <sup>28/03/2019</sup>
 
-| Abstract | Materials |
+| Abstract | Lecture |
 | -------- | --------- |
-| Contents   | Video  |
+| Programs can be used to give compact representations of distributions: in order to represent a distribution, one simply gives a program that would generate an exact sample were the random number generator to produce realizations of independent and identically distributed random variables. This approach to representing distributions by probabilistic programs works not only for simple distributions on numbers like Poissons, Gaussians, etc., and combinations thereof, but also for more exotic distributions on, e.g., phrases in natural language, rendered 2D images of 3D scenes, and climate sensor measurements   | [![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt)    |
 | [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇ 📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB   |       |
 
 
-[![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt) | Abstract |
 
-| Abstract | Materials |
+| Lecture | Abstract |
 | -------- | --------- |
-| [![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt)   | Video  |
+| [![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt)   | Programs can be used to give compact representations of distributions: in order to represent a distribution, one simply gives a program that would generate an exact sample were the random number generator to produce realizations of independent and identically distributed random variables. This approach to representing distributions by probabilistic programs works not only for simple distributions on numbers like Poissons, Gaussians, etc., and combinations thereof, but also for more exotic distributions on, e.g., phrases in natural language, rendered 2D images of 3D scenes, and climate sensor measurements  |
 | [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇ 📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB   |       |
 
 
