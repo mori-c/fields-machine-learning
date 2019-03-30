@@ -22,7 +22,7 @@ Lecture 12.
 
 ### Topics covered:
 
-<ul>
+<ol style="list-style-type: upper-roman;">
   <li>I. Introduction to Deep Learning</li>
   <li>II. Automatic Differentiation</li>
   <li>III. Optimization</li>
@@ -38,7 +38,7 @@ Lecture 12.
   <li>XIII. Statistical Learning Theory and Compressibility</li>
   <li>XIV. Non-convex Optimization in ML</li>
   <li>XV. Machine Learning in Health</li>
-</ul>
+</ol>
 
 
 [The Fields Institute](http://www.fields.utoronto.ca/activities/18-19/ML_GradCourse)
