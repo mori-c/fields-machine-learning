@@ -474,10 +474,10 @@ e.g., heads and tails
 
 
 | Abstract | Materials |
-| -------- | --------- |
-| Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead.  | [![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM) <br> 
-[📼 ↯ ⇣↓ ﹊ ⬇️](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB |/  📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB
- |
+| :-------- | ----------------------------- |
+| Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead.  | <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TFXcVlKqPlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
+| ⬇️ ↓  Downloads  ⌇  [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB  ⋯  📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB
+ | ----- |
 
 
 
