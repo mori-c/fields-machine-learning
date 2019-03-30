@@ -485,7 +485,7 @@ e.g., heads and tails
     <img src="http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg" alt="Lecture Class Probabilistic Programming" width="400" height="260" border="0" />
 </a> 
 <br>
- [![Lecture Class Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM) 
+[![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM)
  <br>
  &ap=%3D18%2526fmt
  
