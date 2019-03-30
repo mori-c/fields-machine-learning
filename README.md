@@ -22,7 +22,7 @@ Lecture 12.
 
 ### Topics covered:
 
-<ol style="list-style-type: upper-roman;">
+<ol style="list-style-type: lower-roman;">
   <li>I. Introduction to Deep Learning</li>
   <li>II. Automatic Differentiation</li>
   <li>III. Optimization</li>
