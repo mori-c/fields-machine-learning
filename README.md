@@ -22,6 +22,12 @@ Lecture 12.
 
 ### Topics covered:
 
+<ol style="list-style-type: lower-roman;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
 <ol style="list-style-type: none;">
   <li>I. Introduction to Deep Learning</li>
   <li>II. Automatic Differentiation</li>
