@@ -475,9 +475,11 @@ e.g., heads and tails
 
 | Abstract | Materials |
 | :-------- | ---------------------------------------------------------------- |
-| Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead.  | <a href="http://www.youtube.com/watch?feature=player_embedded&v=TFXcVlKqPlM" target="_blank"><img src="http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg" 
-alt="probabilistic programming" width="340" height="280" border="0" /></a>
-| ↓  Downloads   ⋯  [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB   ⌇  📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB
+| Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead.  | <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a> <!--a href="http://www.youtube.com/watch?feature=player_embedded&v=TFXcVlKqPlM" target="_blank">
+    <img src="http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg" alt="probabilistic programming" width="340" height="280" border="0" /></a -->
+| ↓  Downloads   ⋯  [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB   ⌇  📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB | -- |
 
 
 
