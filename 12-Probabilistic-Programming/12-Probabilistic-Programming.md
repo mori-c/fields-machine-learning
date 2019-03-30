@@ -458,6 +458,15 @@ e.g., heads and tails
 | [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇ 📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB   |       |
 
 
+[![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt) | Abstract |
+
+| Abstract | Materials |
+| -------- | --------- |
+| [![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt)   | Video  |
+| [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇ 📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB   |       |
+
+
+
 
 ### Similar Past Lecture Materials
 
@@ -479,23 +488,6 @@ e.g., heads and tails
 | Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead.  | [![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM) |
 | [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB   ⌇  📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB |  |
 
-<br><br>
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=TFXcVlKqPlM" target="_blank">
-    <img src="http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg" alt="Lecture Class Probabilistic Programming" width="400" height="260" border="0" />
-</a> 
-
-<br>
-<br>
-
-[![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM)
-
-<br><br>
-
-[![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt)
- 
-<!--a href="http://www.youtube.com/watch?feature=player_embedded&v=TFXcVlKqPlM" target="_blank">
-    <img src="http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg" alt="probabilistic programming" width="340" height="280" border="0" /></a -->
 
 
 ## Probabilistic Programming
