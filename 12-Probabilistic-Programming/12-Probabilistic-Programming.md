@@ -452,9 +452,8 @@ e.g., heads and tails
 
 [Uncertainty in Computation](https://simons.berkeley.edu/talks/daniel-roy-10-06-2016)
 
-[![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
-![A Personal View of Probabilistic Programming](https://www.youtube.com/watch?v=TFXcVlKqPlM)  [⬇️](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB
+[![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM) [⬇️](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB
+<!-- ![A Personal View of Probabilistic Programming](https://www.youtube.com/watch?v=TFXcVlKqPlM) -->
 
 Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead.
 
@@ -481,6 +480,9 @@ Probabilistic programming systems for machine learning and statistics are still 
 
 [📼]() Lecture
 [📄]() Slides
+
+Video Image Placeholder
+[![Image ALT Keywords](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 
 - Table of Contents
