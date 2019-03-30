@@ -22,22 +22,23 @@ Lecture 12.
 
 ### Topics covered:
 
-I. Introduction to Deep Learning (DD & RG)
-II. Automatic Differentiation (DD & RG)
-III. Optimization (DD & RG)
-IV. Probabilistic Modeling (DD & RG)
-V. Stochastic Variations (DD & RG)
-VI. Probabilistic Inference and Generative Models (AM)
-VII. Reinforcement Learning (AF)
-VIII. Regularization and Adversarial Robustness (AO)
-IX. Latent variable analysis with application in advanced manufacturing processes (CD)
-X. Machine Learning in Finance (LW)
-XI. Deep Learning (GH)
-XII. Unsupervised Learning with Application in Medicine (HW)
-XIII. Statistical Learning Theory and Compressibility (KD)
-XIV. Non-convex Optimization in ML (ME)
-XV. Machine Learning in Health (DU)
-
+<ul>
+  <li>I. Introduction to Deep Learning</li>
+  <li>II. Automatic Differentiation</li>
+  <li>III. Optimization</li>
+  <li>IV. Probabilistic Modeling</li>
+  <li>V. Stochastic Variations</li>
+  <li>VI. Probabilistic Inference and Generative Models</li>
+  <li>VII. Reinforcement Learning</li>
+  <li>VIII. Regularization and Adversarial Robustness</li>
+  <li>IX. Latent Variable Analysis with application in advanced manufacturing processes</li>
+  <li>~~X. Machine Learning in Finance~~</li>
+  <li>XI. Deep Learning</li>
+  <li>XII. Unsupervised Learning with Application in Medicine</li>
+  <li>XIII. Statistical Learning Theory and Compressibility</li>
+  <li>XIV. Non-convex Optimization in ML</li>
+  <li>XV. Machine Learning in Health</li>
+</ul>
 
 
 [The Fields Institute](http://www.fields.utoronto.ca/activities/18-19/ML_GradCourse)
