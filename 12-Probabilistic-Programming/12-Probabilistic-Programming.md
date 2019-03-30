@@ -484,7 +484,7 @@ e.g., heads and tails
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=TFXcVlKqPlM" target="_blank">
     <img src="http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg" alt="Lecture Class Probabilistic Programming" width="400" height="260" border="0" />
 </a> 
-[![Lecture Class Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg](http://www.youtube.com/watch?feature=player_embedded&v=TFXcVlKqPlM&ap=%3D18%2526fmt)
+[![Lecture Class Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?feature=player_embedded&v=TFXcVlKqPlM&ap=%3D18%2526fmt)
 
 <!--a href="http://www.youtube.com/watch?feature=player_embedded&v=TFXcVlKqPlM" target="_blank">
     <img src="http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg" alt="probabilistic programming" width="340" height="280" border="0" /></a -->
