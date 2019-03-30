@@ -443,21 +443,41 @@ e.g., heads and tails
 * graphs with added edges == degrees of freedom
 * forming imprints ....with monte carlo...markov chain (?)
 
+<br>
 
 ---
 
-#### March 2019
+## Probabilistic Programming
 
-#### October 6th, 2016
 
-[Uncertainty in Computation](https://simons.berkeley.edu/talks/daniel-roy-10-06-2016)
+#### [Probabilistic Programming in Machine Learning]()  ⋯ Fields ﹊  <sup>28/03/2019</sup>
 
-[![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM) [⬇️](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB
+
+| Abstract | Materials |
+| -------- | --------- |
+| cell 1   | cell 2   |
+
+
+
+
+
+#### [Uncertainty in Computation](https://simons.berkeley.edu/talks/daniel-roy-10-06-2016) ⋯ Berkeley ﹊  <sup>06/10/2016</sup>
+
+<!-- 
+[![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM)
+📼 [↯ ⇣ ↓ ⬇️](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB  ﹊
+📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB -->
+
 <!-- ![A Personal View of Probabilistic Programming](https://www.youtube.com/watch?v=TFXcVlKqPlM) -->
 
-Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead.
+<!-- Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead. -->
 
-📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB
+
+| Abstract | Materials |
+| -------- | --------- |
+| Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead.  | [![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](http://www.youtube.com/watch?v=TFXcVlKqPlM) <br> 
+[📼 ↯ ⇣↓ ﹊ ⬇️](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB |/  📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB
+ |
 
 
 
@@ -474,21 +494,15 @@ Probabilistic programming systems support statistical inference on models define
 Probabilistic programming systems for machine learning and statistics are still in their infancy, and there are many interesting theoretical and applied problems yet to be tackled. My own work focuses on theoretical questions around representing stochastic processes and the computational complexity of sampling-based approaches to inference. I was involved in the definition of the probabilistic programming language [Church](http://projects.csail.mit.edu/church/wiki/Church), and its first implementation, MIT-Church, a Markov Chain Monte Carlo algorithm operating on the space of execution histories of an interpreter. Some of my key theoretical work includes a study of the computability of conditional probability and de Finetti measures, both central notions in Bayesian statistics. Readers looking for an overview of these results are directed to the introduction of my doctoral dissertation. A less technical description of a probabilistic programming approach to artificial intelligence can be found in a recent book chapter on legacies of Alan Turing, co-authored with Freer and Tenenbaum
 
 
-
-
+<!--
 ## Course Materials
-
 [📼]() Lecture
 [📄]() Slides
-
-Video Image Placeholder
-[![Image ALT Keywords](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
-
 - Table of Contents
     1. 
-    
-    
+-->
+
+
 [Probabilistic Programming](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)   
 [A stochastic programming perspective on nonparametric Bayes](http://danroy.org/papers/RoyManGooTen-ICMLNPB-2008.pdf)
 [Fields-CQAM Interdisciplinary Thematic Program](https://www.eventbrite.ca/e/fields-cqam-interdisciplinary-thematic-program-92001-tickets-51212616314)
