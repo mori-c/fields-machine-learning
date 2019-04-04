@@ -41,5 +41,4 @@ Lecture 12.
 </ul>
 
 
-[The Fields Institute](http://www.fields.utoronto.ca/activities/18-19/ML_GradCourse)
 
