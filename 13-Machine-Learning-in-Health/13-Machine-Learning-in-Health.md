@@ -135,7 +135,7 @@ Probabilistic programming systems for machine learning and statistics are still 
 | Lecture    | [Localized patterns in nonlocal Patterns in Dissipative Systems](https://www.ima.umn.edu/2012-2013/SW6.3-7.13/14068) ⌇ USF ﹊ <sup>05/06/2013</sup> |
 | --------- | :--------- |
 | [![Localized patterns in nonlocal Patterns in Dissipative Systems](https://ima.umn.edu/sites/all/modules/ima_glue_2019/HP_BannerLogo.png)](https://reel.ima.umn.edu/videos/2013/SW6.3-7.13/Uminsky-6-5-13.mp4) |  We present an overview of recent results on localized pattern formation in non-local PDEs that arise in swarming and self-assembly models. Much work has been done in one dimension but two dimensions and higher has been more challenging. We present a mathematical framwork which predicts the rich array of localized patterns which have been observed in two and three dimensions. In particular we compute the non-local, linear stability analysis for particles which bifurcate away from radially symmetric states such as rings and spheres. The linear theory accurately characterizes patterns in the ground states of the fully nonlinear problem. This aspect of the theory allows us to solve the inverse problem of designing specified potentials which assemble into targeted patterns. Time permitting I will talk about applications of the theory to specific self-assembly problems. |
-| Downloads  |  [📼](https://reel.ima.umn.edu/videos/2013/SW6.3-7.13/Uminsky-6-5-13.mp4) 4.13 GB ⌇ 📄 [PDF](https://arxiv.org/pdf/1306.1185.pdf) 3.87 MB  |
+| Downloads  |  📼  [Video](https://reel.ima.umn.edu/videos/2013/SW6.3-7.13/Uminsky-6-5-13.mp4) <!-- 4.13 GB ⌇ 📄 [PDF](https://arxiv.org/pdf/1306.1185.pdf) 3.87 MB -->  |
 
 <br>
 
