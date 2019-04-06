@@ -1,17 +1,16 @@
-#  13⋯ Machine Learning in Health
+#  13 ⋯ Machine Learning in Health
 
-[Modern mathematical machine learning approaches to problems in health and medicine: 
+[Modern mathematical machine learning approaches to problems in health and medicine](http://www.fields.utoronto.ca/talks/Modern-mathematical-machine-learning-approaches-to-problems-health-and-medicine-deep-learning):
 
-From deep learning to algebraic signal processing](http://www.fields.utoronto.ca/talks/Modern-mathematical-machine-learning-approaches-to-problems-health-and-medicine-deep-learning)
+From deep learning to algebraic signal processing
 
-[David Uminsky](), USFCA - University of San Francisco
+[David Thomas Uminsky](), USFCA - University of San Francisco
 
 ---
 
 Resources ⋯ Statistical Mathematics / Machine Learning  Medicine
 
 - [Spectral Analysis of the Supreme Court]()
-- [Multiclass Total Variation Clustering](https://arxiv.org/pdf/1306.1185.pdf)
 - [Google Scholar Platform](https://scholar.google.com/citations?user=ei--1CoAAAAJ&hl=en&oi=ao)
 
 - MATH 340 ⋯ [Differential Equations](https://www.usfca.edu/catalog/course/340-differential-equations) 
@@ -19,13 +18,12 @@ Resources ⋯ Statistical Mathematics / Machine Learning  Medicine
   
 - MATH 398 ⋯ Directed Reading and Research 
     - [ ]  2012 - [Probabilistic Programming: Foundations and Applications](http://probabilistic-programming.org/wiki/NIPS*2012_Workshop)
-    - [ ]  2008 - [Probabilistic Programming: Universal Languages and Inference; Systems; and Applications](http://probabilistic-programming.org/wiki/NIPS*2008_Workshop)
+    
   
 <br>
----
+<br>
 
 ## Abstract
-
 
 Three different data science approaches will be explored on three very different problems that come from health. In the first problem we consider the prevalent challenge that poisson noise and compression plays in many real world medical imaging problems.  We show that by taking a more generalized approach to traditional activation functions, standard deep learning architectures for computer vision can achieve higher accuracies in fewer epochs for images that exhibit poisson noise and high compression.  In our second example, we consider the challenge of rigorously detecting epistasis in subsets of the genome to understand a specific phenotypic response. We show that using appropriate non-abelian fourier transforms creates   a natural change of basis of the genome that significantly improves our ability to  detect higher order gene interaction for a given phenotypic response.  In the final example, we consider the problem of detecting Atrial Fibrillation in short time ECG recordings.  We show that one can take a topological data analysis (TDA) approach to classification problem that yields comparable results to state of the art deep learning models.
 
@@ -44,7 +42,7 @@ Three different data science approaches will be explored on three very different
 <br>
 <br>
 
-## Lecture
+## Lecture Notes
 
 ### A ⌇ Machine Learning
 
@@ -69,6 +67,7 @@ cut(A, Ac) = ∑ i ∈ A, j ∈ A c wij
 * **Cheeger Cut** & **Normalized Cut** 
 
 <br>
+<br>
 
 ### B ⌇ Poisson Noise & Compression 
 
@@ -86,6 +85,7 @@ cut(A, Ac) = ∑ i ∈ A, j ∈ A c wij
 * Rigorously epistasis detection in subsets genome challenges in specific phenotypic response detection
 6. Explicit-Implicit Gradient Flow ALGM
 
+<br>
 <br>
 
 ### C ⌇ Challenges in Medical Imaging
@@ -132,28 +132,34 @@ Probabilistic programming systems for machine learning and statistics are still 
 
 <br>
 
-| Lecture    | [Multiclass Total Variation Clustering](https://arxiv.org/abs/1306.1185) ⌇ Berkeley ﹊ <sup>05/06/2013</sup> |
+| Lecture    | [Localized patterns in nonlocal Patterns in Dissipative Systems](https://www.ima.umn.edu/2012-2013/SW6.3-7.13/14068) ⌇ USF ﹊ <sup>05/06/2013</sup> |
 | --------- | :--------- |
-| [![Multiclass Total Variation Clustering Unsupervised Learning Machine Learning Optimization ](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](https://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt)     |  Many clustering models rely on the minimization of an energy over possible partitions of
-the data set. These discrete optimizations usually pose NP-hard problems, however. A
-natural resolution of this issue involves relaxing the discrete minimization space into a
-continuous one to obtain an easier minimization procedure. Many current algorithms, such
-as spectral clustering methods or non-negative matrix factorization (NMF) methods, follow
-this relaxation approach. |
+| [![Multiclass Total Variation Clustering Unsupervised Learning Machine Learning Optimization ](
+)](https://reel.ima.umn.edu/videos/2013/SW6.3-7.13/Uminsky-6-5-13.mp4) |  We present an overview of recent results on localized pattern formation in non-local PDEs that arise in swarming and self-assembly models. Much work has been done in one dimension but two dimensions and higher has been more challenging. We present a mathematical framwork which predicts the rich array of localized patterns which have been observed in two and three dimensions. In particular we compute the non-local, linear stability analysis for particles which bifurcate away from radially symmetric states such as rings and spheres. The linear theory accurately characterizes patterns in the ground states of the fully nonlinear problem. This aspect of the theory allows us to solve the inverse problem of designing specified potentials which assemble into targeted patterns. Time permitting I will talk about applications of the theory to specific self-assembly problems. |
 | Downloads  | <!-- [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇--> 📄 [PDF](https://arxiv.org/pdf/1306.1185.pdf) 3.87 MB   |
 
 <br>
 
-| Lecture    | [Uncertainty in Computation](https://simons.berkeley.edu/talks/daniel-roy-10-06-2016) ⌇ USF ﹊ <sup>06/10/2016</sup> |
+| Lecture    | [Multiclass Total Variation Clustering](https://arxiv.org/abs/1306.1185) ⌇ Berkeley ﹊ <sup>05/06/2013</sup> |
 | --------- | :--------- |
-| [![Probabilistic Programming](http://img.youtube.com/vi/TFXcVlKqPlM/0.jpg)](https://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt)     | Probabilistic programming is, in the abstract, the study of algorithmic processes that represent and transform uncertainty. In practice, there are many probabilistic programming systems that, to varying degrees of generality and efficiency, allow users to characterize states of uncertainty via probability models and update those models in light of data, either exactly or approximately. I will give a survey of the field and characterize some challenges ahead.  |
-| Downloads  |  [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇ 📄 [PDF](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf) 3.87 MB      |
+| ![Multiclass Total Variation Clustering Unsupervised Learning Machine Learning Optimization ](https://www.researchgate.net/profile/Xavier_Bresson/publication/237054062/figure/fig1/AS:299382802010119@1448389830859/Top-The-graph-used-for-both-relaxations.png) |  Many clustering models rely on the minimization of an energy over possible partitions of the data set. These discrete optimizations usually pose NP-hard problems, however. A natural resolution of this issue involves relaxing the discrete minimization space into a continuous one to obtain an easier minimization procedure. Many current algorithms, such as spectral clustering methods or non-negative matrix factorization (NMF) methods, follow this relaxation approach. |
+| Downloads  | <!-- [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇--> 📄 [PDF](https://arxiv.org/pdf/1306.1185.pdf) 3.87 MB   |
+
+<br>
+
+| Lecture    | [Convex Relaxation Methods for Geometric Problems in Scientific Computing](http://www.ipam.ucla.edu/programs/workshops/convex-relaxation-methods-for-geometric-problems-in-scientific-computing/) ⌇ UCLA ﹊ <sup>02/12/2013</sup> |
+| --------- | :--------- |
+| [![Convex Relaxation Methods for Geometric Problems in Scientific Computing Total Variation Clustering](http://www.ipam.ucla.edu/wp-content/uploads/2014/05/CRM-300x235.png)](https://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt) | Convex relaxation methods are studied and applied within a variety of disciplines in computer science and mathematics. They aim at providing exact or tight approximations of solutions of difficult problems. In the last few years, they have played a major role in designing efficient algorithms for compressed sensing and level set method. In addition to the substantial impact of convex relaxation methods in applied areas, they also are connected to various branches of mathematical sciences including optimization, functional analysis, geometry, graph theory and combinatorics. |
+| Downloads  | <!-- [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇--> 📄 [PDF](https://helper.ipam.ucla.edu/publications/crm2013/crm2013_11141.pdf) 3.87 MB      |
+
+<br>
+<br>
 
 
-## Resources
-
+<!-- ## Resources -->
+<!--
 1. [Probabilistic Programming](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)   
 2. [A stochastic programming perspective on nonparametric Bayes](http://danroy.org/papers/RoyManGooTen-ICMLNPB-2008.pdf)
 3. [Fields-CQAM Interdisciplinary Thematic Program](https://www.eventbrite.ca/e/fields-cqam-interdisciplinary-thematic-program-92001-tickets-51212616314)
 4. [Papers with Code](https://paperswithcode.com/task/probabilistic-programming)
-
+-->
