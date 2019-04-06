@@ -134,23 +134,22 @@ Probabilistic programming systems for machine learning and statistics are still 
 
 | Lecture    | [Localized patterns in nonlocal Patterns in Dissipative Systems](https://www.ima.umn.edu/2012-2013/SW6.3-7.13/14068) ⌇ USF ﹊ <sup>05/06/2013</sup> |
 | --------- | :--------- |
-| [![Multiclass Total Variation Clustering Unsupervised Learning Machine Learning Optimization ](
-)](https://reel.ima.umn.edu/videos/2013/SW6.3-7.13/Uminsky-6-5-13.mp4) |  We present an overview of recent results on localized pattern formation in non-local PDEs that arise in swarming and self-assembly models. Much work has been done in one dimension but two dimensions and higher has been more challenging. We present a mathematical framwork which predicts the rich array of localized patterns which have been observed in two and three dimensions. In particular we compute the non-local, linear stability analysis for particles which bifurcate away from radially symmetric states such as rings and spheres. The linear theory accurately characterizes patterns in the ground states of the fully nonlinear problem. This aspect of the theory allows us to solve the inverse problem of designing specified potentials which assemble into targeted patterns. Time permitting I will talk about applications of the theory to specific self-assembly problems. |
-| Downloads  | <!-- [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇--> 📄 [PDF](https://arxiv.org/pdf/1306.1185.pdf) 3.87 MB   |
+| [![Multiclass Total Variation Clustering Unsupervised Learning Machine Learning Optimization ](https://reel.ima.umn.edu/videos/2013/SW6.3-7.13/Uminsky-6-5-13.mp4)](https://reel.ima.umn.edu/videos/2013/SW6.3-7.13/Uminsky-6-5-13.mp4) |  We present an overview of recent results on localized pattern formation in non-local PDEs that arise in swarming and self-assembly models. Much work has been done in one dimension but two dimensions and higher has been more challenging. We present a mathematical framwork which predicts the rich array of localized patterns which have been observed in two and three dimensions. In particular we compute the non-local, linear stability analysis for particles which bifurcate away from radially symmetric states such as rings and spheres. The linear theory accurately characterizes patterns in the ground states of the fully nonlinear problem. This aspect of the theory allows us to solve the inverse problem of designing specified potentials which assemble into targeted patterns. Time permitting I will talk about applications of the theory to specific self-assembly problems. |
+| Downloads  | [📼](https://reel.ima.umn.edu/videos/2013/SW6.3-7.13/Uminsky-6-5-13.mp4) <!--  4.13 GB ⌇ 📄 [PDF](https://arxiv.org/pdf/1306.1185.pdf) 3.87 MB -->   |
 
 <br>
 
 | Lecture    | [Multiclass Total Variation Clustering](https://arxiv.org/abs/1306.1185) ⌇ Berkeley ﹊ <sup>05/06/2013</sup> |
 | --------- | :--------- |
 | ![Multiclass Total Variation Clustering Unsupervised Learning Machine Learning Optimization ](https://www.researchgate.net/profile/Xavier_Bresson/publication/237054062/figure/fig1/AS:299382802010119@1448389830859/Top-The-graph-used-for-both-relaxations.png) |  Many clustering models rely on the minimization of an energy over possible partitions of the data set. These discrete optimizations usually pose NP-hard problems, however. A natural resolution of this issue involves relaxing the discrete minimization space into a continuous one to obtain an easier minimization procedure. Many current algorithms, such as spectral clustering methods or non-negative matrix factorization (NMF) methods, follow this relaxation approach. |
-| Downloads  | <!-- [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇--> 📄 [PDF](https://arxiv.org/pdf/1306.1185.pdf) 3.87 MB   |
+| Downloads  | <!-- [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇--> 📄 [PDF](https://arxiv.org/pdf/1306.1185.pdf)   |
 
 <br>
 
 | Lecture    | [Convex Relaxation Methods for Geometric Problems in Scientific Computing](http://www.ipam.ucla.edu/programs/workshops/convex-relaxation-methods-for-geometric-problems-in-scientific-computing/) ⌇ UCLA ﹊ <sup>02/12/2013</sup> |
 | --------- | :--------- |
 | [![Convex Relaxation Methods for Geometric Problems in Scientific Computing Total Variation Clustering](http://www.ipam.ucla.edu/wp-content/uploads/2014/05/CRM-300x235.png)](https://www.youtube.com/watch?v=TFXcVlKqPlM&ap=%3D18%2526fmt) | Convex relaxation methods are studied and applied within a variety of disciplines in computer science and mathematics. They aim at providing exact or tight approximations of solutions of difficult problems. In the last few years, they have played a major role in designing efficient algorithms for compressed sensing and level set method. In addition to the substantial impact of convex relaxation methods in applied areas, they also are connected to various branches of mathematical sciences including optimization, functional analysis, geometry, graph theory and combinatorics. |
-| Downloads  | <!-- [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇--> 📄 [PDF](https://helper.ipam.ucla.edu/publications/crm2013/crm2013_11141.pdf) 3.87 MB      |
+| Downloads  | <!-- [📼](https://video.simons.berkeley.edu/2016/logic/1/14-Roy.mp4) 4.13 GB ⌇--> 📄 [PDF](https://helper.ipam.ucla.edu/publications/crm2013/crm2013_11141.pdf)     |
 
 <br>
 <br>
