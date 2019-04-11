@@ -1,32 +1,52 @@
 # 01 ⋯ Introduction to Machine Learning
 
-[Machine Learning with Probabilistic Programming](http://www.fields.utoronto.ca/talks/Statistical-learning-theory)
+[Introductory Topics](http://www.fields.utoronto.ca/talks/Introductory-Topics)
 
-[Dan Roy](http://danroy.org/), University of Toronto
+[Roger Grosse](http://danroy.org/)
+Assistant Professor of Computer Science, University of Toronto
+Founding Member of the Vector Institute
 
 ---
 
-Resources ⋯ Probabilistic Programming / Bayesian Learning / STA4516 / Other
+Resources ⋯ Publications / Bayesian Learning / STA4516 / Courses
 
-- [Probabilistic Programming](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)
-- [Bayesian Learning](http://fopss18.mimuw.edu.pl/PDF/Roy.pdf)
+- [Publications on Google Scholar](https://scholar.google.com/citations?user=xgQd1qgAAAAJ&hl=en)
+- [Convolutional deep belief networks for scalable unsupervised learning of hierarchical representations](http://people.ee.duke.edu/~lcarin/DeepBelief.pdf) 2009 - 2097 Citations
 
-- STA4516 ⋯ Topics in Probabilistic Programming 
-    - [ ]  2015 - [hhttp://danroy.org/teaching/2015/STA4516/](http://danroy.org/teaching/2015/STA4516/)
+- CSC 421/2516 ⋯ W 2019 - Neural Networks and Deep Learning
+    * [Course Overview / Assignments / Lectures / Tutorials](http://www.cs.toronto.edu/~rgrosse/courses/csc421_2019/) 
+    * [Lecture Slides 01](http://www.cs.toronto.edu/~rgrosse/courses/csc421_2019/slides/lec01.pdf): Introduction
+- CSC 2541 ⋯ F 2017 - [Scalable and Flexible Models of Uncertainty](https://csc2541-f17.github.io/) 🦑
+- CSC 411/2515 ⋯ F 2018 - Machine Learning and Data Mining
+    * [Topics in Machine Learning: Scalable and Flexible Models of Uncertainty](https://csc2541-f17.github.io/)
+    * [Course Outline / Python Exercises & Tutorials](https://www.cs.toronto.edu/~rgrosse/courses/csc411_f18/)
+    * [Lecture Slides 01](http://www.cs.toronto.edu/~rgrosse/courses/csc411_f18/slides/lec01-slides.pdf): Introduction to Machine Learning
+    * [Course Syllabus](https://www.cs.toronto.edu/~rgrosse/courses/csc411_f18/syllabus.pdf)
+- CSC 321 ⋯ Intro to Neural Networks
+    * W 2018 ⋯ [Intro to Neural Networks and Machine Learning](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/)
+    * F 2018 ⋯ [http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/)
+    * W 2017 ⋯ [http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/)
+    * W 2015 ⋯ [http://www.cs.toronto.edu/~rgrosse/csc321/](http://www.cs.toronto.edu/~rgrosse/csc321/)
 
 <br>
 <br>
 
 ## Abstract
 
-Probabilistic programming systems, like Stan, Church, Anglican, Edward, Pyro, and others, automate statistical inference in probabilistic models defined by probabilistic programs. By constraining some variables of a program (e.g., simulated sensor readings) and studying the conditional distribution of other variables (e.g., model parameters), we can identify plausible explanations for the constrained variables. In this seminar, I will introduce basic principles of probabilistic programming, using a running A.I. example of medical diagnosis. Along the way, students will be exposed to various basic principles of Bayesian inference
+This lecture will introduce basic machine learning and deep learning concepts which will be used throughout the course. I’ll briefly review linear regression and classification methods, and then introduce neural networks and the back propagation algorithm.
 
 <br>
 <br>
-
+<!-- • -->
 ## Core Topics
 
-•  TOC topics
+* Topics Overview
+* What is ML
+* Why ML
+* Machine Learning Workflow
+* Implementing ML Systems
+* Suggested Further Readings
+
 
 <br>
 <br>
@@ -96,9 +116,18 @@ Probabilistic programming systems support statistical inference on models define
 ## Resources
 
 1. [Deep Learning](https://www.deeplearningbook.org/)   
-<!--
-2. [A stochastic programming perspective on nonparametric Bayes](http://danroy.org/papers/RoyManGooTen-ICMLNPB-2008.pdf)
-3. [Fields-CQAM Interdisciplinary Thematic Program](https://www.eventbrite.ca/e/fields-cqam-interdisciplinary-thematic-program-92001-tickets-51212616314)
-4. [Papers with Code](https://paperswithcode.com/task/probabilistic-programming)
--->
+
+2. University of Toronto: Computer Science Department - [Machine Learning](http://www.learning.cs.toronto.edu/courses.html)
+
+3. [Introduction to Machine Learning](https://medium.com/@charliechenyuzhang/introduction-to-machine-learning-ml-e6b43d59b76f), Charlie Chenyu Zhang - Sep 17, 2018
+4. Princeton University, COS 324 ⋯ F 2018 - [Introduction to Machine Learning](https://www.cs.princeton.edu/courses/archive/fall18/cos324/)
+5. [Understanding Machine Learning:
+From Theory to Algorithms](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Shai Shalev-Shwartz and Shai Ben-David - 2014
+<!-- https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf -->
+6. Machine Learning and Medicine: [ML Resources](https://sgfin.github.io/learning-resources/), Sam Finlayson with Zak Kohane
+7. [Summaries of papers on machine learning](https://github.com/fregu856/papers), Fredrik Gustafsson
+8. [Optical Illusion](http://cs229.stanford.edu/proj2006/Bolouki-OpticalIllusion.pdf), Sara Bolouki, Roger Grosse, Honglak Lee, Andrew Ng - 2006
+9. [Introducing K-FAC](https://towardsdatascience.com/introducing-k-fac-and-its-application-for-large-scale-deep-learning-4e3f9b443414): A Second-Order Optimization Method for Large-Scale Deep Learning, Kazuki Osawa - Dec 14, 2018
+10. [Metacademy](https://metacademy.org/)
+
 
