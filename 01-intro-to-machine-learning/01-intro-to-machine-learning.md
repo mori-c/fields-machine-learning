@@ -49,6 +49,11 @@ This lecture will introduce basic machine learning and deep learning concepts wh
 ## Core Topics
 
 * Topics Overview
+* ML Concepts
+   * LR (Linear Regression) / CLAS (Classification)
+   * GD (Gradient Descent)
+   * MLP (Multi-Layer Perceptrons)
+   * BP (Backpropagation)
 * What is ML
 * Why ML
 * Machine Learning Workflow
@@ -61,26 +66,85 @@ This lecture will introduce basic machine learning and deep learning concepts wh
 
 ## Lecture Notes
 
-#### A. [Topic]()
+#### X. [Topic]()
 
-1. TOPIC
+0. TOPIC
 * Sub topic 
     * Nested sub topic
     * 𝐷𝑛 = boolean of 𝑛
-e.g.,
 
 | No. | Classification | Value |
 |-----|----------------|-------|
 |  00 | Class w/ Float | 0.00  |
 
-2. TOPIC
-* 𝑚 = symptom
-    * 𝑳𝑚 = symptom(𝑚) Patient(𝑳) could have
-    * ....
+<br>
+
+#### A. [Topics Overview]()
+
+ML Concepts
+
+1. LR (Linear Regression) / CLAS (Classification)
+2. GD (Gradient Descent)
+3. MLP (Multi-Layer Perceptrons)
+4. BP (Backpropagation)
+    
+#### B. [What is ML]()
+
+1. Behaviours difficult to program by hand currently: 
+
+* recognizing people and objects for their dimensions in time
+* details in human speech
+
+2. A learning ALGM (algorthim) approach:
+
+Program an ALGM where its data or experience is learnt where auto adjusted behaviours are made based on the instructions placed
+
+3. Use a learning ALGM, when:
+
+| Trigger                                                        | Product Type.          | 
+|----------------------------------------------------------------|------------------------|
+| it's hard to code a solution by hand                           | Vision / Speech        |
+| a system needs instant adapation to environment changes.       | Spam Detection         |
+| you want the system to perform *better* than human programmers |                        |
+| privacy / fairness is needed without / with less biast         | Ranking Search Results |
+
+4. ML Types
+
+| Type                   | Objective                                       | Product Type |
+|------------------------|-------------------------------------------------|-------|
+| Supervised Learning    | label things, seeking binary behaviour   | Object Recognition / Natural Language Processing |
+| Unsupervised Learning  | no labels, seeking interesting patterns from data, to create a likeness from its source | Generative Modeling |
+| Reinforcement Learning | an agent interacting, learning from its policy (mapped environment) from periodic rewards | DeepMind & Atari games |
 
 <br>
 
-#### B. [Topic]()
+#### C. [ML Concept Workflows]()
+
+1. Linear Models
+
+* Overview
+* Problem Setup
+* Vectorization
+* Optimization Issue
+* Partial Derivatives
+* Linear Regression
+* 1A) Gradient Descent
+   * Feature Mapping
+   * Generalization
+
+2. Linear Classification
+
+* Binary Linear Classification
+* Logistic Regression
+
+3. Multiclass Classification
+
+4. MLP (MultiLayer Perceptrons)
+
+* Neural Network
+* 
+
+4. BP (Backpropagation)
 
 <br>
 <br>
